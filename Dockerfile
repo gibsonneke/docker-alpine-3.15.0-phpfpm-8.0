@@ -4,7 +4,7 @@ CMD ["/bin/sh"]
 
 RUN apk add --no-cache openssh-client git curl patch shadow mysql-client rsync perl
 
-RUN apk add --no-cache php8 php8-common php8-fpm php8-xml php8-openssl php8-pdo php8-pdo_mysql php8-mysqlnd php8-json php8-mbstring php8-gd php8-bcmath php8-curl php8-session php8-opcache php8-xmlwriter php8-xmlreader php8-tokenizer php8-phar php8-ctype php8-simplexml php8-xdebug php8-pecl-uploadprogress php8-pecl-apcu
+RUN apk add --no-cache php8 php8-common php8-fpm php8-xml php8-openssl php8-pdo php8-pdo_mysql php8-mysqlnd php8-json php8-mbstring php8-gd php8-bcmath php8-curl php8-session php8-opcache php8-xmlwriter php8-xmlreader php8-tokenizer php8-phar php8-ctype php8-simplexml php8-xdebug php8-pecl-uploadprogress php8-pecl-apcu php8-pecl-memcached
 
 RUN ln -sf /usr/bin/php8 /usr/bin/php
 
